@@ -84,8 +84,8 @@ def save_generated_images(images, output_prefix="generated"):
 # Example usage
 if __name__ == "__main__":
     # Example parameters
-    input_image = "images-in/Alex.jpg"  # or URL
-    prompt = "Draw this person as a powerfull king, photorealistic and detailed, in a medieval setting."
+    input_image = "images-in/Your_image.jpg"  # or URL
+    prompt = "Draw the image in modern art style, photorealistic and detailed."
     
     # Generate variations
     generated_images = generate_image_variation(
